@@ -1,0 +1,42 @@
+{
+    "num_users": 9164,
+    "feature_dim": 6,
+    "available_keys": [
+        "train_dataset",
+        "test_dataset",
+        "feature_scaler",
+        "target_scaler",
+        "cluster_data",
+        "coordinates",
+        "all_dates",
+        "num_users",
+        "feature_dim"
+    ],
+    "data_types": {
+        "train_dataset": "<class 'data_utils.ElectricityDataset'>",
+        "test_dataset": "<class 'data_utils.ElectricityDataset'>",
+        "feature_scaler": "<class 'sklearn.preprocessing._data.StandardScaler'>",
+        "target_scaler": "<class 'sklearn.preprocessing._data.StandardScaler'>",
+        "cluster_data": "<class 'numpy.ndarray'>",
+        "coordinates": "<class 'numpy.ndarray'>",
+        "all_dates": "<class 'numpy.ndarray'>",
+        "num_users": "<class 'int'>",
+        "feature_dim": "<class 'int'>"
+    },
+    "shapes": {
+        "cluster_data": "(9164, 365)",
+        "coordinates": "(9164, 2)",
+        "all_dates": "(1089,)"
+    },
+    "description": {
+        "train_dataset": "训练数据集 - ElectricityDataset类",
+        "test_dataset": "测试数据集 - ElectricityDataset类",
+        "feature_scaler": "特征标准化器 - StandardScaler",
+        "target_scaler": "目标标准化器 - StandardScaler",
+        "cluster_data": "聚类数据 - 每个用户的用电序列",
+        "coordinates": "用户坐标 - [num_users, 2]",
+        "all_dates": "所有日期 - numpy日期数组",
+        "num_users": "用户数量",
+        "feature_dim": "特征维度"
+    }
+}
